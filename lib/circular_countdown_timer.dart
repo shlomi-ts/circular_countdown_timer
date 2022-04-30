@@ -217,7 +217,6 @@ class CircularCountDownTimerState extends State<CircularCountDownTimer>
           break;
 
         case AnimationStatus.dismissed:
-          _onComplete();
           break;
         case AnimationStatus.completed:
 
